@@ -1,0 +1,47 @@
+//table styles
+table {
+  width: 75%;
+  margin-left: 190px;
+}
+mat-card {
+  width: 100%;
+  text-align: center;
+  border: black solid 1px;
+  border-color: black;
+  align-items: center;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+th {
+  background-color: gray;
+}
+//update button
+.action-update {
+  background-color: orange;
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60px;
+}
+
+//delete button css
+.action-delete {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60px;
+}
+//view button css
+.action-view {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 60px;
+}

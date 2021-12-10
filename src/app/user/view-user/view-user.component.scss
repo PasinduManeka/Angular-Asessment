@@ -1,0 +1,22 @@
+//mat-card styles
+.example-card {
+  max-width: 400px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-left: 500px;
+  font-weight: bold;
+}
+//mat-card-subtitle styles
+mat-card-subtitle {
+  margin-left: 100px;
+}
+
+//subheader styes
+.subheader {
+  border: black solid 1px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+}

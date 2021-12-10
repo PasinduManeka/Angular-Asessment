@@ -1,0 +1,9 @@
+<div class="subheader"><h1>User Profile</h1></div>
+<!-- Cards with media area -->
+<mat-card *ngIf="userDetails" class="example-card">
+  <mat-card-title-group>
+    <mat-card-subtitle>ID:{{ userDetails.id }}</mat-card-subtitle>
+    <mat-card-subtitle>Name:{{ userDetails.name }}</mat-card-subtitle>
+    <mat-card-subtitle>Email:{{ userDetails.email }}</mat-card-subtitle>
+  </mat-card-title-group>
+</mat-card>
